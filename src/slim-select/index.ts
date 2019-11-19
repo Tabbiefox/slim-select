@@ -39,7 +39,7 @@ interface Constructor {
   afterClose?: () => void
 }
 
-export default class SlimSelect {
+export class SlimSelect {
   public config: Config
   public select: Select
   public data: Data

@@ -1,6 +1,6 @@
 <script lang="ts">
 import Vue from 'vue'
-import SlimSelect from '@/slim-select'
+import { SlimSelect } from '@/slim-select'
 import Chance from 'chance'
 const chance = new Chance()
 

@@ -1,4 +1,4 @@
-import SlimSelect from './index';
+import { SlimSelect } from './index';
 import { Option } from './data';
 interface SingleSelected {
     container: HTMLDivElement;

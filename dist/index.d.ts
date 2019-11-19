@@ -34,7 +34,7 @@ interface Constructor {
     beforeClose?: () => void;
     afterClose?: () => void;
 }
-export default class SlimSelect {
+export declare class SlimSelect {
     config: Config;
     select: Select;
     data: Data;

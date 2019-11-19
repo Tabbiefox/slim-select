@@ -1,5 +1,5 @@
 <script>
-  import SlimSelect from '@/slim-select'
+  import { SlimSelect } from '@/slim-select'
   import packageJson from '../../../package.json'
 
   export default {

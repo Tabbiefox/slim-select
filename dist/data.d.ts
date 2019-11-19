@@ -1,4 +1,4 @@
-import SlimSelect from './index';
+import { SlimSelect } from './index';
 interface Constructor {
     main: SlimSelect;
 }

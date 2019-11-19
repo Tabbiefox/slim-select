@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["SlimSelect"] = factory();
-	else
-		root["SlimSelect"] = factory();
-})(window, function() {
-return /******/ (function(modules) { // webpackBootstrap
+exports["SlimSelect"] =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -959,7 +950,7 @@ var SlimSelect = (function () {
     };
     return SlimSelect;
 }());
-exports["default"] = SlimSelect;
+exports.SlimSelect = SlimSelect;
 
 
 /***/ }),
@@ -1885,5 +1876,4 @@ exports.Slim = Slim;
 
 
 /***/ })
-/******/ ])["default"];
-});
+/******/ ])["SlimSelect"];

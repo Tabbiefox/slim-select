@@ -1,4 +1,4 @@
-import SlimSelect from './index'
+import { SlimSelect } from './index'
 import { ensureElementInView, isValueInArrayOfObjects, highlight } from './helper'
 import { Option, Optgroup, validateOption } from './data'
 

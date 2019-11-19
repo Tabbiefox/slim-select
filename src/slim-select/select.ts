@@ -1,4 +1,4 @@
-import SlimSelect from './index'
+import { SlimSelect } from './index'
 import { Option, Optgroup, dataArray } from './data'
 
 interface Constructor {
