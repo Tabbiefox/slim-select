@@ -1,4 +1,7 @@
 # Slim Select 
+## Fork information
+Switched the project bundling to CommonJS named class export as opposed to the original UMD default class export, which was problematic to implement in a SystemJS environment.
+
 ## slimselectjs.com
 Slim advanced select dropdown
 
